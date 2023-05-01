@@ -1,0 +1,58 @@
+/* https: //developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Sticky_footers */
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    height: 100%;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: serif;
+    min-height: 100vh;
+    /* display: grid; */
+    /* grid-template-rows: 1fr 1fr auto 1fr; */
+}
+
+header {
+    max-height: 5rem;
+    font-family: sans-serif;
+    font-size: x-large;
+    padding-bottom: 1rem;
+    text-align: center;
+    text-decoration: 3px underline darkred;
+    text-transform: uppercase;
+}
+
+header p {
+    margin-bottom: 1rem;
+}
+
+#tasks {
+    margin: 2rem;
+}
+
+footer {
+    background-color: darkred;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    height: 3rem;
+    padding: 1rem;
+    /* max-height: 4rem; */
+    /* grid-row-end: 3; */
+}
+
+footer a {
+    color: aliceblue;
+}
+
+footer a:hover {
+    color: darkred;
+    background-color: aliceblue;
+}
