@@ -15,6 +15,10 @@
 
 1. Input new task
 1. Add new task to task list
+    1. Capture button pressed
+    1. Capture RETURN in input field
+    1. Associate addTask() with both events.
+    1. Print new task.
 1. Mark task as completed
 1. CSS Styling
 1. CSS: Sticky Footer
